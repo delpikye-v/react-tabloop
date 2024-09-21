@@ -33,14 +33,14 @@ import TabLoop from "react-tabloop-z";
 ```
 #### Snippet
 ```js
-    <TabLoop>
-      <Tooltip>
-        <input type="text" >
-        <input type="text" >
-        <input type="text" >
-        ...
-      </Tooltip>
-    </TabLoop>
+     <Tooltip>
+        <TabLoop>
+            <input type="text" >
+            <input type="text" >
+            <input type="text" >
+            <div>><button>Info</button></div>
+        </TabLoop>
+     </Tooltip>
 
     <TabLoop>
       <ChildComponent />
